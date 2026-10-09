@@ -1,0 +1,37 @@
+{
+  "tipo_entrevista": "comprador",
+  "total_entrevistas": 0,
+  "entrevistas": [
+    {
+      "id": "user_001",
+      "fecha": null,
+      "consentimiento": null,
+      "perfil": {
+        "edad": null,
+        "municipio": null,
+        "ocupacion": null
+      },
+      "compra": {
+        "marca_buscada": null,
+        "modelo_buscado": null,
+        "presupuesto_inicial": null,
+        "moneda": null,
+        "canal_busqueda": null,
+        "factores_decision": [],
+        "precio_final": null,
+        "anno_compra": null
+      },
+      "uso": {
+        "uso_principal": null,
+        "km_diarios": null,
+        "gasto_mensual": null
+      },
+      "satisfaccion": {
+        "le_gusta_mas": null,
+        "le_gusta_menos": null,
+        "recomendaria": null
+      },
+      "transcripcion": "data/raw/entrevistas/user_001.md"
+    }
+  ]
+}
