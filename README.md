@@ -25,6 +25,7 @@ Explorar los factores que determinan la decisión de compra de motos en Cuba, y 
 - [x] Repositorio creado en GitHub.
 - [x] Preguntas de entrevista diseñadas.
 - [x] 2 candidatos identificados para entrevistar.
+- [ ] Más candidatos a entrevistar
 - [ ] Configuración de OpenCode en Termux (en exploración).
 - [ ] Script de scraping para Revolico (en exploración).
 
@@ -37,5 +38,5 @@ Explorar los factores que determinan la decisión de compra de motos en Cuba, y 
 
 ## Herramientas
 - GitHub (control de versiones)
-- OpenCode + Termux (exploración de scraping)
+- OpenCode(exploración de scraping)
 - Python (análisis de datos)
