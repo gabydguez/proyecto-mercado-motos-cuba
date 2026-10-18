@@ -1,37 +1,54 @@
 {
   "tipo_entrevista": "comprador",
-  "total_entrevistas": 0,
+  "total_entrevistas": 1,
   "entrevistas": [
     {
       "id": "user_001",
-      "fecha": null,
-      "consentimiento": null,
+      "fecha": "2026-10-17",
+      "consentimiento": true,
       "perfil": {
-        "edad": null,
-        "municipio": null,
-        "ocupacion": null
+        "edad": 60,
+        "sexo": "M",
+        "municipio": "San Miguel del Padrón",
+        "provincia": "La Habana",
+        "ocupacion": "Chófer profesional",
+        "recibe_remesas": true,
+        "familiar_exterior": true,
+        "rango_ingreso_mensual": "4200 CUP"
       },
       "compra": {
-        "marca_buscada": null,
+        "marca_buscada": "Unizuki",
         "modelo_buscado": null,
         "presupuesto_inicial": null,
         "moneda": null,
-        "canal_busqueda": null,
-        "factores_decision": [],
+        "canal_busqueda": "Importadora",
+        "factores_decision": ["Marca", "Precio"],
         "precio_final": null,
         "anno_compra": null
       },
       "uso": {
-        "uso_principal": null,
-        "km_diarios": null,
-        "gasto_mensual": null
+        "uso_principal": "Personal",
+        "km_diarios": "28-35",
+        "unico_medio_transporte": true,
+        "gasto_combustible": "1 litro diario",
+        "gasto_mantenimiento": "15000-20000 CUP",
+        "tiene_alarma_candado": true,
+        "problemas_repuestos": false
+      },
+      "opiniones_mercado": {
+        "considero_electrica": true,
+        "prefiere_electrica": true,
+        "comportamiento_precios": "Aumento",
+        "influencia_precio": "Regulaciones y adquirir el dólar",
+        "tipo_mercado": "Legal"
       },
       "satisfaccion": {
-        "le_gusta_mas": null,
+        "le_gusta_mas": "Eléctrica",
         "le_gusta_menos": null,
-        "recomendaria": null
+        "recomendaria": true
       },
-      "transcripcion": "data/raw/entrevistas/user_001.md"
+      "transcripcion": "data/raw/entrevistas/user_001.md",
+      "audio_url": "datos/raw/audios/user_001_audio.mp3"
     }
   ]
 }
