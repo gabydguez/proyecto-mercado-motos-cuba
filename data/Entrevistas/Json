@@ -38,6 +38,7 @@
       "opiniones_mercado": {
         "considero_electrica": true,
         "prefiere_electrica": true,
+        "razon_preferencia": "Precio del combustible",
         "comportamiento_precios": "Aumento",
         "influencia_precio": "Regulaciones y adquirir el dólar",
         "tipo_mercado": "Legal"
